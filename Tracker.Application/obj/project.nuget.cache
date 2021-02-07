@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+xvSe8WFVOpmfifAehga1760Y0U7oPSLOqhQIiYFcu8Del0T0fZLHslKbWmvhLsRFya70zNc4r+JkJvF38qIwg==",
+  "success": true,
+  "projectFilePath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/josepolanco/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/josepolanco/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/josepolanco/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/josepolanco/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/josepolanco/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cDfINf3BB54qE0d2BClJg9zvSmrgDenv5WaNOv4bUxY9BwfgRiPsxrx05k7SHlfVFT7M3pwB+ZMzLoaPuF2rgQ==",
+  "success": true,
+  "projectFilePath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/josepolanco/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
