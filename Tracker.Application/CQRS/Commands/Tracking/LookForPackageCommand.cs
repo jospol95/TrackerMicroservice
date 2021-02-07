@@ -16,7 +16,7 @@ namespace Tracker.Application.CQRS.Commands.Tracking
 
     public class LookForPackageCommandHandler : TrackingBaseCommand, IRequestHandler<LookForPackageCommand, bool>
     {
-        protected LookForPackageCommandHandler(ILoggerFactory loggerFactory) : base(loggerFactory)
+        public LookForPackageCommandHandler(ILoggerFactory loggerFactory) : base(loggerFactory)
         {
         }
         public Task<bool> Handle(LookForPackageCommand request, CancellationToken cancellationToken)

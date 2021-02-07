@@ -1,0 +1,11 @@
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.deps.json
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.dll
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.pdb
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.dll
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.pdb
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csprojAssemblyReference.cache
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfoInputs.cache
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfo.cs
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.CopyComplete
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.dll
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.pdb

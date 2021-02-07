@@ -4,11 +4,79 @@
     <projectFile>Tracker.API/Tracker.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b4db2e2-d51f-440c-a6e4-0b13d9257dd8" name="Default Changelist" comment="" />
+    <list default="true" id="9b4db2e2-d51f-440c-a6e4-0b13d9257dd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Tracker.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Tracker.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Tracker.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Tracker.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/Tracker.Contracts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/Tracker.Contracts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/net5.0/Tracker.Contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/net5.0/Tracker.Contracts.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/Tracker.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/Tracker.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/net5.0/Tracker.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/net5.0/Tracker.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/Tracker.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/Tracker.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/net5.0/Tracker.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/net5.0/Tracker.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Infrastructure/DependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0F11B901-D96E-46EF-A606-EAF24DCEC0A3/8/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -21,25 +89,38 @@
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/SavePackageForUserCommandHandler.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/SavePackageCommandHandler.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommandHandler.cs" />
-        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" />
-        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" />
-        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Queries/GetDeliverersNameQuery.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Queries/GetSavedPackagesQuery.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/Exceptions/PackageNotFoundException.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/DI.cs" />
         <option value="$PROJECT_DIR$/Tracker.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" />
         <option value="$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/TrackingService.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Contracts/Tracking/ITrackingService.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1o8A3baPhB6EMpJBLN4LRM9sfCB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,7 +144,7 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" />
+        <option name="Build" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tracker.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -78,11 +159,14 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" />
+        <option name="Build" enabled="true" />
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9b4db2e2-d51f-440c-a6e4-0b13d9257dd8" name="Default Changelist" comment="" />
@@ -92,21 +176,137 @@
       <updated>1612657650720</updated>
       <workItem from="1612657655347" duration="555000" />
       <workItem from="1612658257659" duration="5141000" />
+      <workItem from="1612717172509" duration="3769000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1238" height="223" key="GridCell.Tab.0.bottom" timestamp="1612720659715">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659715" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336787" />
+    <state width="1238" height="223" key="GridCell.Tab.0.center" timestamp="1612720659714">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659714" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336765" />
+    <state width="1238" height="223" key="GridCell.Tab.0.left" timestamp="1612720659712">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659712" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336760" />
+    <state width="1238" height="223" key="GridCell.Tab.0.right" timestamp="1612720659715">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659715" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336771" />
+    <state width="1238" height="223" key="GridCell.Tab.1.bottom" timestamp="1612720659718">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659718" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336830" />
+    <state width="1238" height="223" key="GridCell.Tab.1.center" timestamp="1612720659717">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659717" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336825" />
+    <state width="1238" height="223" key="GridCell.Tab.1.left" timestamp="1612720659716">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659716" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336823" />
+    <state width="1238" height="223" key="GridCell.Tab.1.right" timestamp="1612720659717">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659717" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336828" />
+    <state width="1238" height="223" key="GridCell.Tab.2.bottom" timestamp="1612720659719">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659719" />
+    <state width="1238" height="263" key="GridCell.Tab.2.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336801" />
+    <state width="1238" height="223" key="GridCell.Tab.2.center" timestamp="1612720659718">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659718" />
+    <state width="1238" height="263" key="GridCell.Tab.2.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336798" />
+    <state width="1238" height="223" key="GridCell.Tab.2.left" timestamp="1612720659718">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659718" />
+    <state width="1238" height="263" key="GridCell.Tab.2.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336796" />
+    <state width="1238" height="223" key="GridCell.Tab.2.right" timestamp="1612720659719">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659719" />
+    <state width="1238" height="263" key="GridCell.Tab.2.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336800" />
+    <state width="1238" height="223" key="GridCell.Tab.3.bottom" timestamp="1612720659722">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.3.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659722" />
+    <state width="1238" height="263" key="GridCell.Tab.3.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336809" />
+    <state width="1238" height="223" key="GridCell.Tab.3.center" timestamp="1612720659721">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.3.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659721" />
+    <state width="1238" height="263" key="GridCell.Tab.3.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336807" />
+    <state width="1238" height="223" key="GridCell.Tab.3.left" timestamp="1612720659720">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.3.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659720" />
+    <state width="1238" height="263" key="GridCell.Tab.3.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336805" />
+    <state width="1238" height="223" key="GridCell.Tab.3.right" timestamp="1612720659722">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.3.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659722" />
+    <state width="1238" height="263" key="GridCell.Tab.3.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336808" />
+    <state width="1238" height="223" key="GridCell.Tab.4.bottom" timestamp="1612720659725">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.4.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659725" />
+    <state width="1238" height="263" key="GridCell.Tab.4.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336817" />
+    <state width="1238" height="223" key="GridCell.Tab.4.center" timestamp="1612720659724">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.4.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659724" />
+    <state width="1238" height="263" key="GridCell.Tab.4.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336814" />
+    <state width="1238" height="223" key="GridCell.Tab.4.left" timestamp="1612720659723">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.4.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659723" />
+    <state width="1238" height="263" key="GridCell.Tab.4.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336813" />
+    <state width="1238" height="223" key="GridCell.Tab.4.right" timestamp="1612720659724">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="223" key="GridCell.Tab.4.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659724" />
+    <state width="1238" height="263" key="GridCell.Tab.4.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336816" />
     <state x="880" y="276" key="Rider.ProjectTemplateDialog.Size" timestamp="1612659632472">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="880" y="276" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1080/2560.0.1920.1080@0.0.2560.1080" timestamp="1612659632472" />
+    <state x="342" y="111" key="VCS.ChangeListViewerDialog" timestamp="1612718955533">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="342" y="111" key="VCS.ChangeListViewerDialog/0.0.1280.800@0.0.1280.800" timestamp="1612718955533" />
   </component>
 </project>

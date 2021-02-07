@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj": {}
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/Tracker.API.csproj": {}
   },
   "projects": {
-    "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj": {
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/Tracker.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj",
+        "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/Tracker.API.csproj",
         "projectName": "Tracker.API",
-        "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj",
-        "packagesPath": "/Users/josepolanco/.nuget/packages/",
-        "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/obj/",
+        "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/Tracker.API.csproj",
+        "packagesPath": "/Users/josep/.nuget/packages/",
+        "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/josepolanco/.nuget/NuGet/NuGet.Config"
+          "/Users/josep/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,10 +24,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj": {
-                "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj"
+              "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj": {
+                "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj"
               }
             }
           }
@@ -40,7 +39,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -57,12 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.8, 3.1.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,21 +63,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj": {
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
+        "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj",
         "projectName": "Tracker.Application",
-        "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
-        "packagesPath": "/Users/josepolanco/.nuget/packages/",
-        "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/",
+        "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj",
+        "packagesPath": "/Users/josep/.nuget/packages/",
+        "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/josepolanco/.nuget/NuGet/NuGet.Config"
+          "/Users/josep/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -95,10 +87,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj": {
-                "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj"
+              "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/Tracker.Models.csproj": {
+                "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/Tracker.Models.csproj"
               }
             }
           }
@@ -111,7 +102,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -136,32 +126,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.8, 3.1.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj": {
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/Tracker.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj",
+        "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/Tracker.Models.csproj",
         "projectName": "Tracker.Models",
-        "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj",
-        "packagesPath": "/Users/josepolanco/.nuget/packages/",
-        "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/obj/",
+        "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/Tracker.Models.csproj",
+        "packagesPath": "/Users/josep/.nuget/packages/",
+        "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/josepolanco/.nuget/NuGet/NuGet.Config"
+          "/Users/josep/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -171,7 +155,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -183,7 +166,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -194,18 +176,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.8, 3.1.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }

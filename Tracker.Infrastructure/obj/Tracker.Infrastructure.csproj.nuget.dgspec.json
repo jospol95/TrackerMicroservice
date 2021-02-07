@@ -1,30 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj": {}
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/Tracker.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj": {
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/Tracker.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
-        "projectName": "Tracker.Infrastructure",
-        "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
-        "packagesPath": "/Users/josepolanco/.nuget/packages/",
-        "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/obj/",
+        "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/Tracker.Contracts.csproj",
+        "projectName": "Tracker.Contracts",
+        "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/Tracker.Contracts.csproj",
+        "packagesPath": "/Users/josep/.nuget/packages/",
+        "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/josepolanco/.nuget/NuGet/NuGet.Config"
+          "/Users/josep/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -35,8 +34,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.0": {
           "imports": [
             "net461",
             "net462",
@@ -47,12 +45,143 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/Tracker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/Tracker.Domain.csproj",
+        "projectName": "Tracker.Domain",
+        "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/Tracker.Domain.csproj",
+        "packagesPath": "/Users/josep/.nuget/packages/",
+        "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/josep/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/Tracker.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
+        "projectName": "Tracker.Infrastructure",
+        "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
+        "packagesPath": "/Users/josep/.nuget/packages/",
+        "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/josep/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/Tracker.Contracts.csproj": {
+                "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/Tracker.Contracts.csproj"
+              },
+              "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/Tracker.Domain.csproj": {
+                "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/Tracker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }

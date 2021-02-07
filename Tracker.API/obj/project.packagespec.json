@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj",
+    "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/Tracker.API.csproj",
     "projectName": "Tracker.API",
-    "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj",
-    "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/obj/",
+    "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/Tracker.API.csproj",
+    "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.API/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj": {
-            "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj"
+          "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj": {
+            "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj"
           }
         }
       }
@@ -45,12 +45,6 @@
       ],
       "assetTargetFallback": true,
       "warn": true,
-      "downloadDependencies": [
-        {
-          "name": "Microsoft.AspNetCore.App.Ref",
-          "version": "[3.1.8, 3.1.8]"
-        }
-      ],
       "frameworkReferences": {
         "Microsoft.AspNetCore.App": {
           "privateAssets": "none"
@@ -59,7 +53,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
     }
   }
 }

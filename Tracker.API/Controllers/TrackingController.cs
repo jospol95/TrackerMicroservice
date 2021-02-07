@@ -15,17 +15,20 @@ namespace Tracker.API.Controllers
             _mediator = mediator;
         }
         
+        [HttpGet]
         public async Task<IActionResult> GetDeliverersNameQuery()
         {
             return Ok(null);
         }
 
+        [HttpPost]
         public async Task<IActionResult> LookForPackage(LookForPackageCommand command)
         {
             await _mediator.Send(command);
             return Ok("yei");
         }
 
+        [HttpPost]
         public async Task<IActionResult> SavePackageCommand(SavePackageCommand command)
         {
             await _mediator.Send(command);

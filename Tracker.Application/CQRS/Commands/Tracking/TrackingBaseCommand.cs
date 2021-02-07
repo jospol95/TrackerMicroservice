@@ -6,7 +6,7 @@ namespace Tracker.Application.CQRS.Commands.Tracking
     {
         protected readonly ILogger _logger;
 
-        protected TrackingBaseCommand(ILoggerFactory loggerFactory)
+        public TrackingBaseCommand(ILoggerFactory loggerFactory)
         {
             _logger = loggerFactory.CreateLogger("TrackingCommand");
         }

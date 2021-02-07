@@ -1,0 +1,8 @@
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/bin/Debug/netcoreapp3.1/Tracker.Models.deps.json
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/bin/Debug/netcoreapp3.1/Tracker.Models.dll
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/bin/Debug/netcoreapp3.1/Tracker.Models.pdb
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.csprojAssemblyReference.cache
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.AssemblyInfoInputs.cache
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.AssemblyInfo.cs
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.dll
+/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.pdb
