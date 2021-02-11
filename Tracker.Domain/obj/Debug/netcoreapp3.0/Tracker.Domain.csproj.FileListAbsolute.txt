@@ -1,0 +1,9 @@
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/bin/Debug/netcoreapp3.0/Tracker.Domain.deps.json
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/bin/Debug/netcoreapp3.0/Tracker.Domain.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/bin/Debug/netcoreapp3.0/Tracker.Domain.pdb
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csprojAssemblyReference.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.AssemblyInfoInputs.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.AssemblyInfo.cs
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csproj.CoreCompileInputs.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.pdb

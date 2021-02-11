@@ -1,0 +1,9 @@
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.deps.json
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.pdb
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csprojAssemblyReference.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.AssemblyInfoInputs.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.AssemblyInfo.cs
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csproj.CoreCompileInputs.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.pdb
