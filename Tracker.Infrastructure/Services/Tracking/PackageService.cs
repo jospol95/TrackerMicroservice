@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Tracker.Contracts.Tracking;
 using Tracker.Domain.Tracking;
@@ -9,12 +10,15 @@ namespace Tracker.Infrastructure.Services.Tracking
     public class PackageService : IPackageService
     {
         private readonly IMongoCollection<Package> _packages;
+        private readonly ConnectionStrings _connectionStrings;
 
-        public PackageService()
+        public PackageService(IOptions<ConnectionStrings> options)
         {
-            var client = new MongoClient("connectionString");
-            var database = client.GetDatabase("databaseName");
-            _packages = database.GetCollection<Package>("collectionName");
+            // var client = new MongoClient("connectionString");
+            _connectionStrings = options.Value; 
+            var client = new MongoClient(_connectionStrings.TrackingMongoDbUrl);
+            var database = client.GetDatabase(_connectionStrings.TrackingMongoDbName);
+            _packages = database.GetCollection<Package>(nameof(Package));
         }
         
         public async Task Save(string trackingId, string userId)

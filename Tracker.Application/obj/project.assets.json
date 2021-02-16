@@ -42,6 +42,16 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
+      "Tracker.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Tracker.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tracker.Contracts.dll": {}
+        }
+      },
       "Tracker.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -119,6 +129,11 @@
         "version.txt"
       ]
     },
+    "Tracker.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Tracker.Contracts/Tracker.Contracts.csproj",
+      "msbuildProject": "../Tracker.Contracts/Tracker.Contracts.csproj"
+    },
     "Tracker.Models/1.0.0": {
       "type": "project",
       "path": "../Tracker.Models/Tracker.Models.csproj",
@@ -130,23 +145,24 @@
       "MediatR >= 9.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 5.0.0",
+      "Tracker.Contracts >= 1.0.0",
       "Tracker.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/josep/.nuget/packages/": {}
+    "/Users/josepolanco/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj",
+      "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
       "projectName": "Tracker.Application",
-      "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/Tracker.Application.csproj",
-      "packagesPath": "/Users/josep/.nuget/packages/",
-      "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/",
+      "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
+      "packagesPath": "/Users/josepolanco/.nuget/packages/",
+      "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/josep/.config/NuGet/NuGet.Config"
+        "/Users/josepolanco/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -156,9 +172,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/Tracker.Models.csproj": {
-              "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Models/Tracker.Models.csproj"
+            "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj": {
+              "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj"
+            },
+            "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj": {
+              "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj"
             }
           }
         }
@@ -171,6 +191,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MediatR": {
             "target": "Package",
@@ -195,12 +216,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.8, 3.1.8]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,3 +9,17 @@
 /Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.CopyComplete
 /Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.dll
 /Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.pdb
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.deps.json
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.pdb
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Contracts.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Contracts.pdb
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.pdb
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csprojAssemblyReference.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfoInputs.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfo.cs
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.CoreCompileInputs.cache
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.CopyComplete
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.dll
+/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.pdb

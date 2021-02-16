@@ -12,17 +12,18 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Tracker.Application;
+using Tracker.Infrastructure;
 
 namespace Tracker.API
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -32,6 +33,9 @@ namespace Tracker.API
             
             //Application
             services.AddMediator();
+            
+            //Infrastructure
+            services.AddInfrastructureLayer(Configuration);
             
             services.AddSwaggerGen(c =>
             {

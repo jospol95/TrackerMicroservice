@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nA1USenEbGegq4jqC18KWH5QRxoGGNwyH7X2xsZ5Lxhsjz1ykf9yzXir76QBHmaHwOJAkmr0ij8IA73g4bp0SA==",
+  "dgSpecHash": "SWLzQcp9DMKRLW6qEx8fZoi2c3Nbl5YN/iYboXPNJJ4LNdjFAMVNfvbW7FrNN58c4V/njpRk1I1zefpHU4qUyQ==",
   "success": true,
   "projectFilePath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/Tracker.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/josepolanco/.nuget/packages/mongodb.bson/2.11.6/mongodb.bson.2.11.6.nupkg.sha512",
+    "/Users/josepolanco/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/Users/josepolanco/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

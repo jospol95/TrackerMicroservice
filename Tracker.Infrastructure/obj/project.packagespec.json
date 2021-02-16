@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
+    "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
     "projectName": "Tracker.Infrastructure",
-    "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
-    "outputPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Infrastructure/obj/",
+    "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
+    "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.0"
@@ -15,11 +15,11 @@
     "frameworks": {
       "netcoreapp3.0": {
         "projectReferences": {
-          "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/Tracker.Contracts.csproj": {
-            "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Contracts/Tracker.Contracts.csproj"
+          "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj": {
+            "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj"
           },
-          "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/Tracker.Domain.csproj": {
-            "projectPath": "/Users/josep/Desktop/git-hub-projects/PackTrack/TrackerMicroservice/Tracker.Domain/Tracker.Domain.csproj"
+          "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/Tracker.Domain.csproj": {
+            "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/Tracker.Domain.csproj"
           }
         }
       }
@@ -33,6 +33,14 @@
   "frameworks": {
     "netcoreapp3.0": {
       "dependencies": {
+        "Microsoft.Extensions.DependencyInjection.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Options.ConfigurationExtensions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
         "MongoDB.Driver": {
           "target": "Package",
           "version": "[2.11.6, )"
@@ -52,6 +60,10 @@
         {
           "name": "Microsoft.AspNetCore.App.Ref",
           "version": "[3.0.1, 3.0.1]"
+        },
+        {
+          "name": "Microsoft.NETCore.App.Ref",
+          "version": "[3.0.0, 3.0.0]"
         }
       ],
       "frameworkReferences": {
@@ -59,7 +71,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
     }
   }
 }
