@@ -1494,6 +1494,7 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Tracker.Contracts": "1.0.0",
+          "Tracker.Domain": "1.0.0",
           "Tracker.Models": "1.0.0"
         },
         "compile": {
@@ -1506,6 +1507,9 @@
       "Tracker.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Tracker.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Tracker.Contracts.dll": {}
         },
@@ -5341,35 +5345,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/josepolanco/.nuget/packages/": {}
+    "C:\\Users\\jos_o\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj",
+      "projectUniqueName": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.API\\Tracker.API.csproj",
       "projectName": "Tracker.API",
-      "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/Tracker.API.csproj",
-      "packagesPath": "/Users/josepolanco/.nuget/packages/",
-      "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.API/obj/",
+      "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.API\\Tracker.API.csproj",
+      "packagesPath": "C:\\Users\\jos_o\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/josepolanco/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\jos_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj": {
-              "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj"
+            "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Application\\Tracker.Application.csproj": {
+              "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Application\\Tracker.Application.csproj"
             },
-            "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj": {
-              "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj"
+            "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Infrastructure\\Tracker.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Infrastructure\\Tracker.Infrastructure.csproj"
             }
           }
         }
@@ -5382,7 +5391,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -5399,12 +5407,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.8, 3.1.8]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5413,7 +5415,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

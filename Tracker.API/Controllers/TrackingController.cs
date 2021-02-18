@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Tracker.Application.CQRS.Commands.Tracking;
+using Tracker.Application.CQRS.Commands.Packages;
 
 namespace Tracker.API.Controllers
 {
@@ -22,7 +22,7 @@ namespace Tracker.API.Controllers
         }
 
         [HttpPost("LookForPackage")]
-        public async Task<IActionResult> LookForPackage(LookForPackageCommand command)
+        public async Task<IActionResult> LookForPackage(GetPackageCommand command)
         {
             await _mediator.Send(command);
             return Ok("yei");

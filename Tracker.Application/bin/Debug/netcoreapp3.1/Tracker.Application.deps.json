@@ -12,6 +12,7 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Tracker.Contracts": "1.0.0",
+          "Tracker.Domain": "1.0.0",
           "Tracker.Models": "1.0.0"
         },
         "runtime": {
@@ -54,9 +55,28 @@
           }
         }
       },
+      "MongoDB.Bson/2.11.6": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.6.0",
+            "fileVersion": "2.11.6.0"
+          }
+        }
+      },
       "Tracker.Contracts/1.0.0": {
+        "dependencies": {
+          "Tracker.Domain": "1.0.0"
+        },
         "runtime": {
           "Tracker.Contracts.dll": {}
+        }
+      },
+      "Tracker.Domain/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.11.6"
+        },
+        "runtime": {
+          "Tracker.Domain.dll": {}
         }
       },
       "Tracker.Models/1.0.0": {
@@ -100,7 +120,19 @@
       "path": "microsoft.extensions.logging.abstractions/5.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
     },
+    "MongoDB.Bson/2.11.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JMxPQvz61IW+AFDWEkl4Dwswc4Eg6Zrii65T9R6VMHwdSdcb1eseHdwIyfjyf776vCmDVJbpSHW8075A6tTqqg==",
+      "path": "mongodb.bson/2.11.6",
+      "hashPath": "mongodb.bson.2.11.6.nupkg.sha512"
+    },
     "Tracker.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tracker.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

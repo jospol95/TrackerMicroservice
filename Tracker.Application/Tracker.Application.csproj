@@ -12,7 +12,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tracker.Contracts\Tracker.Contracts.csproj" />
+    <ProjectReference Include="..\Tracker.Domain\Tracker.Domain.csproj" />
     <ProjectReference Include="..\Tracker.Models\Tracker.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="CQRS\Commands\Packages\TrackingBaseCommand.cs" />
   </ItemGroup>
 
 </Project>

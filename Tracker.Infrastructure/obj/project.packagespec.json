@@ -1,25 +1,29 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
+    "projectUniqueName": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Infrastructure\\Tracker.Infrastructure.csproj",
     "projectName": "Tracker.Infrastructure",
-    "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/Tracker.Infrastructure.csproj",
-    "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Infrastructure/obj/",
+    "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Infrastructure\\Tracker.Infrastructure.csproj",
+    "outputPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Infrastructure\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp3.0": {
         "projectReferences": {
-          "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj": {
-            "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj"
+          "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Contracts\\Tracker.Contracts.csproj": {
+            "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Contracts\\Tracker.Contracts.csproj"
           },
-          "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/Tracker.Domain.csproj": {
-            "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Domain/Tracker.Domain.csproj"
+          "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Domain\\Tracker.Domain.csproj": {
+            "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Domain\\Tracker.Domain.csproj"
           }
         }
       }
@@ -64,6 +68,10 @@
         {
           "name": "Microsoft.NETCore.App.Ref",
           "version": "[3.0.0, 3.0.0]"
+        },
+        {
+          "name": "Microsoft.WindowsDesktop.App.Ref",
+          "version": "[3.0.0, 3.0.0]"
         }
       ],
       "frameworkReferences": {
@@ -71,7 +79,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
     }
   }
 }

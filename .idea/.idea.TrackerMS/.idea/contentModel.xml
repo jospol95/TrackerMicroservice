@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\jos_o\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\jos_o\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\jos_o\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\jos_o\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\jos_o\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\jos_o\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\jos_o\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jos_o\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_TrackerMS.100018017.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jos_o\Documents\github\TrackerMicroservice" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tracker.API" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="PackageController.cs" t="Include" />
           <e p="TrackingController.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -24,14 +35,28 @@
         <e p="Startup.cs" t="Include" />
         <e p="Tracker.API.csproj" t="IncludeRecursive" />
       </e>
+      <e p="Tracker.Api.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Tracker.Api.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tracker.Api.Tests.csproj" t="IncludeRecursive" />
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
       <e p="Tracker.Application" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="CQRS" t="Include">
           <e p="Commands" t="Include">
-            <e p="Tracking" t="Include">
-              <e p="LookForPackageCommand.cs" t="Include" />
+            <e p="packages" t="Include">
+              <e p="BasePackageCommand.cs" t="Include" />
+              <e p="DeletePackageCommand.cs" t="Include" />
+              <e p="GetPackageCommand.cs" t="Include" />
+              <e p="GetPackagesCommand.cs" t="Include" />
               <e p="SavePackageCommand.cs" t="Include" />
-              <e p="TrackingBaseCommand.cs" t="Include" />
             </e>
           </e>
           <e p="Queries" t="Include">
@@ -41,7 +66,7 @@
         </e>
         <e p="DI.cs" t="Include" />
         <e p="Exceptions" t="Include">
-          <e p="PackageNotFoundException.cs" t="Include" />
+          <e p="RecordNotFoundException.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -110,6 +135,7 @@
           </e>
         </e>
         <e p="PackageDelivererType.cs" t="Include" />
+        <e p="PackageHeaders.cs" t="Include" />
         <e p="Tracker" t="Include">
           <e p="TrackingResponse.cs" t="Include" />
         </e>
@@ -117,7 +143,5 @@
       </e>
       <e p="TrackerMS.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_TrackerMS.-1865462735.00" t="ExcludeRecursive" />
   </component>
 </project>

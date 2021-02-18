@@ -1,20 +1,28 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj",
+    "projectUniqueName": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Contracts\\Tracker.Contracts.csproj",
     "projectName": "Tracker.Contracts",
-    "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj",
-    "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/",
+    "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Contracts\\Tracker.Contracts.csproj",
+    "outputPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Contracts\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Domain\\Tracker.Domain.csproj": {
+            "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Domain\\Tracker.Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -43,6 +51,10 @@
         {
           "name": "Microsoft.NETCore.App.Ref",
           "version": "[3.0.0, 3.0.0]"
+        },
+        {
+          "name": "Microsoft.WindowsDesktop.App.Ref",
+          "version": "[3.0.0, 3.0.0]"
         }
       ],
       "frameworkReferences": {
@@ -50,7 +62,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
     }
   }
 }

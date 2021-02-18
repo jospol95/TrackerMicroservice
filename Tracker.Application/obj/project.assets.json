@@ -42,14 +42,39 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
+      "MongoDB.Bson/2.11.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
+        }
+      },
       "Tracker.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Tracker.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Tracker.Contracts.dll": {}
         },
         "runtime": {
           "bin/placeholder/Tracker.Contracts.dll": {}
+        }
+      },
+      "Tracker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "MongoDB.Bson": "2.11.6"
+        },
+        "compile": {
+          "bin/placeholder/Tracker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tracker.Domain.dll": {}
         }
       },
       "Tracker.Models/1.0.0": {
@@ -129,10 +154,34 @@
         "version.txt"
       ]
     },
+    "MongoDB.Bson/2.11.6": {
+      "sha512": "JMxPQvz61IW+AFDWEkl4Dwswc4Eg6Zrii65T9R6VMHwdSdcb1eseHdwIyfjyf776vCmDVJbpSHW8075A6tTqqg==",
+      "type": "package",
+      "path": "mongodb.bson/2.11.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net452/MongoDB.Bson.dll",
+        "lib/net452/MongoDB.Bson.xml",
+        "lib/netstandard1.5/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.xml",
+        "lib/netstandard2.0/MongoDB.Bson.dll",
+        "lib/netstandard2.0/MongoDB.Bson.xml",
+        "mongodb.bson.2.11.6.nupkg.sha512",
+        "mongodb.bson.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Tracker.Contracts/1.0.0": {
       "type": "project",
       "path": "../Tracker.Contracts/Tracker.Contracts.csproj",
       "msbuildProject": "../Tracker.Contracts/Tracker.Contracts.csproj"
+    },
+    "Tracker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Tracker.Domain/Tracker.Domain.csproj",
+      "msbuildProject": "../Tracker.Domain/Tracker.Domain.csproj"
     },
     "Tracker.Models/1.0.0": {
       "type": "project",
@@ -146,39 +195,48 @@
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 5.0.0",
       "Tracker.Contracts >= 1.0.0",
+      "Tracker.Domain >= 1.0.0",
       "Tracker.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/josepolanco/.nuget/packages/": {}
+    "C:\\Users\\jos_o\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
+      "projectUniqueName": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Application\\Tracker.Application.csproj",
       "projectName": "Tracker.Application",
-      "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
-      "packagesPath": "/Users/josepolanco/.nuget/packages/",
-      "outputPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/obj/",
+      "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Application\\Tracker.Application.csproj",
+      "packagesPath": "C:\\Users\\jos_o\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/josepolanco/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\jos_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj": {
-              "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/Tracker.Contracts.csproj"
+            "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Contracts\\Tracker.Contracts.csproj": {
+              "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Contracts\\Tracker.Contracts.csproj"
             },
-            "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj": {
-              "projectPath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Models/Tracker.Models.csproj"
+            "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Domain\\Tracker.Domain.csproj": {
+              "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Domain\\Tracker.Domain.csproj"
+            },
+            "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Models\\Tracker.Models.csproj": {
+              "projectPath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Models\\Tracker.Models.csproj"
             }
           }
         }
@@ -191,7 +249,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MediatR": {
             "target": "Package",
@@ -216,18 +273,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.8, 3.1.8]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

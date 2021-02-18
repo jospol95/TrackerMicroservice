@@ -512,12 +512,12 @@
           "runtimes/win/native/snappy32.dll": {
             "rid": "win",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.1.1.7"
           },
           "runtimes/win/native/snappy64.dll": {
             "rid": "win",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.1.1.7"
           }
         },
         "compile": {
@@ -1261,6 +1261,7 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Tracker.Contracts": "1.0.0",
+          "Tracker.Domain": "1.0.0",
           "Tracker.Models": "1.0.0"
         },
         "runtime": {
@@ -1271,6 +1272,9 @@
         }
       },
       "Tracker.Contracts/1.0.0": {
+        "dependencies": {
+          "Tracker.Domain": "1.0.0"
+        },
         "runtime": {
           "Tracker.Contracts.dll": {}
         },

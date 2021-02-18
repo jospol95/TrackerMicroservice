@@ -144,12 +144,12 @@
           "runtimes/win/native/snappy32.dll": {
             "rid": "win",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.1.1.7"
           },
           "runtimes/win/native/snappy64.dll": {
             "rid": "win",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.1.1.7"
           }
         }
       },
@@ -832,6 +832,9 @@
         }
       },
       "Tracker.Contracts/1.0.0": {
+        "dependencies": {
+          "Tracker.Domain": "1.0.0"
+        },
         "runtime": {
           "Tracker.Contracts.dll": {}
         }

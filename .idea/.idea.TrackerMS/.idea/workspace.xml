@@ -23,46 +23,177 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4db2e2-d51f-440c-a6e4-0b13d9257dd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tracker.API/Controllers/PackageController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/Tracker.Api.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Tracker.Api.Tests.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Tracker.Api.Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Tracker.Api.Tests.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Tracker.Api.Tests.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/Tracker.Api.Tests.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ref/Tracker.Api.Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/testhost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/xunit.abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/xunit.assert.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/xunit.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/xunit.execution.dotnet.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/xunit.runner.reporters.netcoreapp10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/xunit.runner.utility.netcoreapp10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/Tracker.Api.Tests.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Debug/net5.0/ref/Tracker.Api.Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Tracker.Api.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Tracker.Api.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/Tracker.Api.Tests.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Api.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/BasePackageCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/DeletePackageCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/GetPackagesCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Application/Exceptions/RecordNotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracker.Models/PackageHeaders.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrackerMS/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrackerMS/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/Tracker.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/Tracker.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.API.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/Tracker.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Debug/netcoreapp3.1/Tracker.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/Tracker.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/GetPackageCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/SavePackageCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/TrackingBaseCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/Exceptions/PackageNotFoundException.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/Tracker.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/Tracker.Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Contracts.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/bin/Debug/netcoreapp3.1/Tracker.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/Debug/netcoreapp3.1/Tracker.Application.dll" afterDir="false" />
@@ -72,40 +203,70 @@
       <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/Tracker.Contracts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/Tracker.Contracts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/bin/Debug/netcoreapp3.0/Tracker.Contracts.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/Tracker.Contracts.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Contracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Contracts/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Domain/Tracker.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/Tracker.Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/bin/Debug/netcoreapp3.0/Tracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/bin/Debug/netcoreapp3.0/Tracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/bin/Debug/netcoreapp3.0/Tracker.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/bin/Debug/netcoreapp3.0/Tracker.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Debug/netcoreapp3.0/Tracker.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/Tracker.Domain.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/ConnectionStrings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/ConnectionStrings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/DependencyInjection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/Tracker.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/Tracker.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/bin/Debug/netcoreapp3.0/Tracker.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Debug/netcoreapp3.0/Tracker.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/Tracker.Infrastructure.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrackerMS.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/bin/Debug/netcoreapp3.1/Tracker.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/bin/Debug/netcoreapp3.1/Tracker.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/bin/Debug/netcoreapp3.1/Tracker.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/bin/Debug/netcoreapp3.1/Tracker.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Debug/netcoreapp3.1/Tracker.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/Tracker.Models.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.Models/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.Models/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackerMS.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TrackerMS.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,19 +277,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/BasePackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/DeletePackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Models/PackageHeaders.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tracker.Infrastructure/ConnectionStrings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2BC5ED24-0D5C-402C-8B6A-BD14FFCEE267/E5/UnauthorizedAccessException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tracker.Infrastructure/DependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/Exceptions/RecordNotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/TrackingBaseCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/SavePackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/GetPackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Queries/GetSavedPackagesQuery.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/DI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/GetPackagesCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2BC5ED24-0D5C-402C-8B6A-BD14FFCEE267/25F/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.Api.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.API/Controllers/PackageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tracker.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,23 +313,35 @@
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommandHandler.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Queries/GetDeliverersNameQuery.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Queries/GetSavedPackagesQuery.cs" />
-        <option value="$PROJECT_DIR$/Tracker.Application/Exceptions/PackageNotFoundException.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/DI.cs" />
-        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/TrackingBaseCommand.cs" />
         <option value="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/TrackingService.cs" />
         <option value="$PROJECT_DIR$/Tracker.Contracts/Tracking/ITrackingService.cs" />
-        <option value="$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" />
         <option value="$PROJECT_DIR$/Tracker.Infrastructure/ConnectionString.cs" />
         <option value="$PROJECT_DIR$/Tracker.Infrastructure/DependencyInjection.cs" />
         <option value="$PROJECT_DIR$/Tracker.API/appsettings.json" />
-        <option value="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" />
         <option value="$PROJECT_DIR$/Tracker.Infrastructure/ConnectionStrings.cs" />
-        <option value="$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" />
         <option value="$PROJECT_DIR$/Tracker.API/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/Tracker.API/Startup.cs" />
         <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/SavePackageCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/LookForPackageCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Tracking/GetPackageCommand.cs" />
         <option value="$PROJECT_DIR$/Tracker.API/Controllers/TrackingController.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Models/PackageHeaders.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Domain/Tracking/Package.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/BasePackageCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/GetPackagesCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/Exceptions/PackageNotFoundException.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/Exceptions/RecordNotFoundException.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/Exceptions/UnathorizedToPerformAction.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/Exceptions/UnauthorizedToPerformAction.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/Exceptions/UnauthorizedToPerformActionException.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Contracts/Tracking/IPackageService.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/DeletePackageCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/SavePackageCommand.cs" />
+        <option value="$PROJECT_DIR$/Tracker.API/Controllers/PackageController.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" />
+        <option value="$PROJECT_DIR$/Tracker.Application/CQRS/Commands/Packages/GetPackageCommand.cs" />
       </list>
     </option>
   </component>
@@ -173,6 +356,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34983897" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2999195" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -224,7 +409,7 @@
       <item itemvalue=".NET Launch Settings Profile.Tracker.API: IIS Express" />
     </list>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -240,11 +425,12 @@
       <workItem from="1612717172509" duration="3769000" />
       <workItem from="1613011264494" duration="640000" />
       <workItem from="1613011979576" duration="2115000" />
+      <workItem from="1613670792341" duration="8639000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -269,121 +455,183 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1263" y="21" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613011234828" />
-    <state width="2518" height="259" key="GridCell.Tab.0.bottom" timestamp="1613016306273">
-      <screen x="0" y="25" width="2560" height="970" />
+    <state width="520" height="464" key="DebuggerActiveHint" timestamp="1613677833129">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="520" height="464" key="DebuggerActiveHint/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613677833129" />
+    <state width="2515" height="282" key="GridCell.Tab.0.bottom" timestamp="1613680049836">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659715" />
     <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336787" />
+    <state width="2515" height="282" key="GridCell.Tab.0.bottom/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049836" />
     <state width="2518" height="259" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.25.2560.970@0.25.2560.970" timestamp="1613016306273" />
-    <state width="2518" height="259" key="GridCell.Tab.0.center" timestamp="1613016306273">
-      <screen x="0" y="25" width="2560" height="970" />
+    <state width="2515" height="282" key="GridCell.Tab.0.center" timestamp="1613680049836">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659714" />
     <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336765" />
+    <state width="2515" height="282" key="GridCell.Tab.0.center/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049836" />
     <state width="2518" height="259" key="GridCell.Tab.0.center/2560.25.1920.1055/0.25.2560.970@0.25.2560.970" timestamp="1613016306273" />
-    <state width="2518" height="259" key="GridCell.Tab.0.left" timestamp="1613016306272">
-      <screen x="0" y="25" width="2560" height="970" />
+    <state width="2515" height="282" key="GridCell.Tab.0.left" timestamp="1613680049835">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659712" />
     <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336760" />
+    <state width="2515" height="282" key="GridCell.Tab.0.left/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049835" />
     <state width="2518" height="259" key="GridCell.Tab.0.left/2560.25.1920.1055/0.25.2560.970@0.25.2560.970" timestamp="1613016306272" />
-    <state width="2518" height="259" key="GridCell.Tab.0.right" timestamp="1613016306273">
-      <screen x="0" y="25" width="2560" height="970" />
+    <state width="2515" height="282" key="GridCell.Tab.0.right" timestamp="1613680049836">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659715" />
     <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336771" />
+    <state width="2515" height="282" key="GridCell.Tab.0.right/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049836" />
     <state width="2518" height="259" key="GridCell.Tab.0.right/2560.25.1920.1055/0.25.2560.970@0.25.2560.970" timestamp="1613016306273" />
-    <state width="1238" height="223" key="GridCell.Tab.1.bottom" timestamp="1612720659718">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.1.bottom" timestamp="1613680107009">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659718" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336830" />
-    <state width="1238" height="223" key="GridCell.Tab.1.center" timestamp="1612720659717">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.1.bottom/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680107009" />
+    <state width="2515" height="282" key="GridCell.Tab.1.center" timestamp="1613680107009">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659717" />
     <state width="1238" height="263" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336825" />
-    <state width="1238" height="223" key="GridCell.Tab.1.left" timestamp="1612720659716">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.1.center/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680107009" />
+    <state width="2515" height="282" key="GridCell.Tab.1.left" timestamp="1613680107009">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659716" />
     <state width="1238" height="263" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336823" />
-    <state width="1238" height="223" key="GridCell.Tab.1.right" timestamp="1612720659717">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.1.left/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680107009" />
+    <state width="2515" height="282" key="GridCell.Tab.1.right" timestamp="1613680107009">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659717" />
     <state width="1238" height="263" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336828" />
-    <state width="1238" height="223" key="GridCell.Tab.2.bottom" timestamp="1612720659719">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.1.right/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680107009" />
+    <state width="2515" height="282" key="GridCell.Tab.2.bottom" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659719" />
     <state width="1238" height="263" key="GridCell.Tab.2.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336801" />
-    <state width="1238" height="223" key="GridCell.Tab.2.center" timestamp="1612720659718">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.2.bottom/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.2.center" timestamp="1613680049639">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659718" />
     <state width="1238" height="263" key="GridCell.Tab.2.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336798" />
-    <state width="1238" height="223" key="GridCell.Tab.2.left" timestamp="1612720659718">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.2.center/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049639" />
+    <state width="2515" height="282" key="GridCell.Tab.2.left" timestamp="1613680049639">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659718" />
     <state width="1238" height="263" key="GridCell.Tab.2.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336796" />
-    <state width="1238" height="223" key="GridCell.Tab.2.right" timestamp="1612720659719">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.2.left/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049639" />
+    <state width="2515" height="282" key="GridCell.Tab.2.right" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659719" />
     <state width="1238" height="263" key="GridCell.Tab.2.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336800" />
-    <state width="1238" height="223" key="GridCell.Tab.3.bottom" timestamp="1612720659722">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.2.right/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.3.bottom" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.3.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659722" />
     <state width="1238" height="263" key="GridCell.Tab.3.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336809" />
-    <state width="1238" height="223" key="GridCell.Tab.3.center" timestamp="1612720659721">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.3.bottom/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.3.center" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.3.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659721" />
     <state width="1238" height="263" key="GridCell.Tab.3.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336807" />
-    <state width="1238" height="223" key="GridCell.Tab.3.left" timestamp="1612720659720">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.3.center/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.3.left" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.3.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659720" />
     <state width="1238" height="263" key="GridCell.Tab.3.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336805" />
-    <state width="1238" height="223" key="GridCell.Tab.3.right" timestamp="1612720659722">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.3.left/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.3.right" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.3.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659722" />
     <state width="1238" height="263" key="GridCell.Tab.3.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336808" />
-    <state width="1238" height="223" key="GridCell.Tab.4.bottom" timestamp="1612720659725">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.3.right/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.4.bottom" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.4.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612720659725" />
     <state width="1238" height="263" key="GridCell.Tab.4.bottom/0.23.1280.728@0.23.1280.728" timestamp="1612718336817" />
-    <state width="1238" height="223" key="GridCell.Tab.4.center" timestamp="1612720659724">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.4.bottom/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.4.center" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.4.center/0.0.1280.800@0.0.1280.800" timestamp="1612720659724" />
     <state width="1238" height="263" key="GridCell.Tab.4.center/0.23.1280.728@0.23.1280.728" timestamp="1612718336814" />
-    <state width="1238" height="223" key="GridCell.Tab.4.left" timestamp="1612720659723">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.4.center/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.4.left" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.4.left/0.0.1280.800@0.0.1280.800" timestamp="1612720659723" />
     <state width="1238" height="263" key="GridCell.Tab.4.left/0.23.1280.728@0.23.1280.728" timestamp="1612718336813" />
-    <state width="1238" height="223" key="GridCell.Tab.4.right" timestamp="1612720659724">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2515" height="282" key="GridCell.Tab.4.left/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state width="2515" height="282" key="GridCell.Tab.4.right" timestamp="1613680049640">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1238" height="223" key="GridCell.Tab.4.right/0.0.1280.800@0.0.1280.800" timestamp="1612720659724" />
     <state width="1238" height="263" key="GridCell.Tab.4.right/0.23.1280.728@0.23.1280.728" timestamp="1612718336816" />
-    <state x="880" y="276" key="Rider.ProjectTemplateDialog.Size" timestamp="1612659632472">
+    <state width="2515" height="282" key="GridCell.Tab.4.right/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613680049640" />
+    <state x="880" y="276" key="Rider.ProjectTemplateDialog.Size" timestamp="1613670834276">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="880" y="276" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1080/2560.0.1920.1080@0.0.2560.1080" timestamp="1612659632472" />
+    <state x="880" y="276" key="Rider.ProjectTemplateDialog.Size/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613670834276" />
     <state x="342" y="111" key="VCS.ChangeListViewerDialog" timestamp="1612718955533">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="342" y="111" key="VCS.ChangeListViewerDialog/0.0.1280.800@0.0.1280.800" timestamp="1612718955533" />
-    <state x="0" y="28" width="2560" height="1052" key="VCS.FileHistoryDialog" timestamp="1613012246527">
-      <screen x="0" y="25" width="2560" height="970" />
+    <state x="0" y="3" width="2560" height="1172" key="VCS.FileHistoryDialog" timestamp="1613678767828">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
+    <state x="0" y="3" width="2560" height="1172" key="VCS.FileHistoryDialog/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613678767828" />
     <state x="0" y="28" width="2560" height="1052" key="VCS.FileHistoryDialog/2560.25.1920.1055/0.25.2560.970@0.25.2560.970" timestamp="1613012246527" />
+    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1613678835935">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="943" y="235" width="672" height="678" key="search.everywhere.popup/2560.-261.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613678835935" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" initialLine="26">
+            <startOffsets>
+              <option value="982" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1031" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs</url>
+          <line>46</line>
+          <properties documentPath="$PROJECT_DIR$/Tracker.Infrastructure/Services/Tracking/PackageService.cs" initialLine="46">
+            <startOffsets>
+              <option value="1716" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1852" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

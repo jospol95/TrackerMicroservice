@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
@@ -21,20 +22,35 @@ namespace Tracker.Infrastructure.Services.Tracking
             _packages = database.GetCollection<Package>(nameof(Package));
         }
         
-        public async Task Save(string trackingId, string userId)
+        public async Task<Guid> Save(string trackingId, string userId)
         {
             var newPackage = new Package(trackingId, userId);
             await _packages.InsertOneAsync(newPackage);
-        }
-
-        public async Task<IEnumerable<Package>> GetAll(string userId)
-        {
-            return await _packages.Find<Package>(package => package.UserId == userId).ToListAsync();
+            return newPackage.Id;
         }
         
-        public async Task<Package> Get(string trackingId)
+        public async Task Delete(Package packageToDelete)
         {
-            return await _packages.Find<Package>(package => package.TrackingId == trackingId).FirstOrDefaultAsync();
+            // var package = await _packages
+            //     .Find(p => p.Id == packageId).SingleAsync();
+            await _packages.DeleteOneAsync(p => p.Id == packageToDelete.Id);
+        }
+        
+        public async Task<IEnumerable<Package>> GetAllByUserId(string userId)
+        {
+            return await _packages
+                .Find<Package>(package => package.UserId == userId).ToListAsync();
+        }
+        
+        public async Task<Package> Get(Guid packageId)
+        {
+            var package = await _packages
+                .Find<Package>(package => package.Id == packageId)
+                .FirstOrDefaultAsync();
+            
+            return await _packages
+                .Find<Package>(package => package.Id == packageId)
+                .FirstOrDefaultAsync();
         }
     }
 }

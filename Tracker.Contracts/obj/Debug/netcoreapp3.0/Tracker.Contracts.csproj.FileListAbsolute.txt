@@ -7,3 +7,15 @@
 /Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.csproj.CoreCompileInputs.cache
 /Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.dll
 /Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Contracts/obj/Debug/netcoreapp3.0/Tracker.Contracts.pdb
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\bin\Debug\netcoreapp3.0\Tracker.Contracts.deps.json
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\bin\Debug\netcoreapp3.0\Tracker.Contracts.dll
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\bin\Debug\netcoreapp3.0\Tracker.Contracts.pdb
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\bin\Debug\netcoreapp3.0\Tracker.Domain.dll
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\bin\Debug\netcoreapp3.0\Tracker.Domain.pdb
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\obj\Debug\netcoreapp3.0\Tracker.Contracts.csprojAssemblyReference.cache
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\obj\Debug\netcoreapp3.0\Tracker.Contracts.AssemblyInfoInputs.cache
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\obj\Debug\netcoreapp3.0\Tracker.Contracts.AssemblyInfo.cs
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\obj\Debug\netcoreapp3.0\Tracker.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\obj\Debug\netcoreapp3.0\Tracker.Contracts.csproj.CopyComplete
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\obj\Debug\netcoreapp3.0\Tracker.Contracts.dll
+C:\Users\jos_o\Documents\github\TrackerMicroservice\Tracker.Contracts\obj\Debug\netcoreapp3.0\Tracker.Contracts.pdb

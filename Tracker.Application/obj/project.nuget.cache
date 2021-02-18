@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "pcCJ2maRlQcM5SzeSNu37Nm1KFWaXrM5ufQaSlrvylSU9wxO5dsvjsrEVH2vptuMffH9m3VaNL/PBSWzS7mtxw==",
+  "dgSpecHash": "p3UFUjFNRPHZnC/y5a3AZwmpK4+Tg4yaTgovOatNGZet36suvCq1pWWyMdN36vy6ge1t91PWku0uwadnI/cVmA==",
   "success": true,
-  "projectFilePath": "/Users/josepolanco/Desktop/GithubProjects/PackTrack/TrackerApi/Tracker.Application/Tracker.Application.csproj",
+  "projectFilePath": "C:\\Users\\jos_o\\Documents\\github\\TrackerMicroservice\\Tracker.Application\\Tracker.Application.csproj",
   "expectedPackageFiles": [
-    "/Users/josepolanco/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
-    "/Users/josepolanco/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-    "/Users/josepolanco/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
-    "/Users/josepolanco/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "/Users/josepolanco/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+    "C:\\Users\\jos_o\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\jos_o\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\jos_o\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\jos_o\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\jos_o\\.nuget\\packages\\mongodb.bson\\2.11.6\\mongodb.bson.2.11.6.nupkg.sha512"
   ],
   "logs": []
 }

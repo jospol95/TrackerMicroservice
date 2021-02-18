@@ -7,14 +7,45 @@
   "targets": {
     ".NETCoreApp,Version=v3.0": {
       "Tracker.Contracts/1.0.0": {
+        "dependencies": {
+          "Tracker.Domain": "1.0.0"
+        },
         "runtime": {
           "Tracker.Contracts.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.11.6": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.6.0",
+            "fileVersion": "2.11.6.0"
+          }
+        }
+      },
+      "Tracker.Domain/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.11.6"
+        },
+        "runtime": {
+          "Tracker.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Tracker.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Bson/2.11.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JMxPQvz61IW+AFDWEkl4Dwswc4Eg6Zrii65T9R6VMHwdSdcb1eseHdwIyfjyf776vCmDVJbpSHW8075A6tTqqg==",
+      "path": "mongodb.bson/2.11.6",
+      "hashPath": "mongodb.bson.2.11.6.nupkg.sha512"
+    },
+    "Tracker.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

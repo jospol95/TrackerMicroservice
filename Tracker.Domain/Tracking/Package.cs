@@ -6,7 +6,7 @@ namespace Tracker.Domain.Tracking
     public class Package
     {
         [BsonId]
-        private Guid Id { get; set; }
+        public Guid Id { get; set; }
         public string TrackingId { get; set; }
         public string UserId { get; set; }
         private DateTime CreatedDate { get; set; }
